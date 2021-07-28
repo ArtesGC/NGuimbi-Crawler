@@ -266,4 +266,4 @@ $RECYCLE.BIN/
 ### User template
 
 # extra general excludes
-.idea/
+.idea/*

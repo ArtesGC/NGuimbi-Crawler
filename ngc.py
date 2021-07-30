@@ -11,6 +11,7 @@ class GCr:
     def __init__(self):
         self.gc = QApplication(argv)
         self.ferramentas = QWidget()
+        self.ferramentas.setWindowTitle('NGuimbi-Crawler')
         self.ferramentas.setFixedSize(QSize(1350, 630))
         self.ferramentas.setStyleSheet(theme)
 

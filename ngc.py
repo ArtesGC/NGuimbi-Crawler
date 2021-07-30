@@ -1,8 +1,8 @@
 import re
+from sys import argv
 
 from PyQt5.Qt import *
 from PyQt5.QtWebEngineWidgets import *
-from sys import argv, exit
 
 theme = open('themes/gcryptermix.qss').read().strip()
 
